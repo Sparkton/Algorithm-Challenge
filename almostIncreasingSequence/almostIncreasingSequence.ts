@@ -1,4 +1,10 @@
-function almostIncreasingSequence(sequence: number[]): boolean {
+function almostIncreasingSequence(seq: number[]): boolean {
+    let ctr = 0;
+
+    for(let i = 0;i <= seq.length;i++){
+        if(seq[i] < seq[i+1])
+            c
+    }
 
 }
 
