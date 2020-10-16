@@ -1,5 +1,5 @@
 function digitDegree(n: number): number {
-  
+    console.log();
 }
 
 console.log(digitDegree(5));
