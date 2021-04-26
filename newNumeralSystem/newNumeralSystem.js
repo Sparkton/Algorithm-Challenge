@@ -1,5 +1,6 @@
-function newNumeralSystem(number: string): string[] {
-  const numerals: string[] = [];
+function newNumeralSystem(number) {
+  const numerals = [];
+  // Ashi Symbols for A
   let startCharCount = 65;
   let endCharCount = number.charCodeAt(0);
 

@@ -1,7 +1,5 @@
-function missingLetters(str: string): string {
+function missingLetters(str) {
   const alphabet = "abcdefghijklmnopqrstuvwxyz".split("");
-  console.log(alphabet);
-
   const chars = str.split("");
 
   for (let i = 0; i < chars.length; i++) {
@@ -10,6 +8,7 @@ function missingLetters(str: string): string {
     }
   }
 
+  console.log(alphabet);
   return undefined;
 }
 console.log(missingLetters("bce"));

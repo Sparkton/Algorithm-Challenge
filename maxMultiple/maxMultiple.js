@@ -1,6 +1,5 @@
-function maxMultiple(divisor: number, bound: number): number {
+function maxMultiple(divisor, bound) {
   let remainder = bound % divisor;
-  console.log(remainder);
 
   return bound - remainder;
 }

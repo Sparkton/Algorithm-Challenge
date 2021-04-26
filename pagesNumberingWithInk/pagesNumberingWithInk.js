@@ -1,7 +1,4 @@
-function pagesNumberingWithInk(
-  current: number,
-  numberOfDigits: number
-): number {
+function pagesNumberingWithInk(current, numberOfDigits) {
   while (numberOfDigits >= current.toString().length) {
     numberOfDigits -= current.toString().length;
 

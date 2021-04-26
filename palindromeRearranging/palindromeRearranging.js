@@ -1,10 +1,9 @@
-function palindromeRearranging(inputString: string): boolean {
+function palindromeRearranging(inputString) {
   const chars = inputString.split("");
-  console.log(chars);
-
   const charCount = {};
-
   let oddCount = 0;
+
+  console.log(chars);
 
   for (let char of chars) {
     if (charCount.hasOwnProperty(char)) {
@@ -13,7 +12,6 @@ function palindromeRearranging(inputString: string): boolean {
       charCount[char] = 1;
     }
   }
-
   console.log(charCount);
 
   for (let key in charCount) {
@@ -26,3 +24,4 @@ function palindromeRearranging(inputString: string): boolean {
 }
 
 console.log(palindromeRearranging("aabb"));
+console.log(palindromeRearranging("aaabb"));
